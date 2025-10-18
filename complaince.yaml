@@ -1,0 +1,27 @@
+# compliance.yaml
+# This YAML file outlines current compliance status for regions in a fintech context.
+# Based on the project's focus on scaling from US to global markets.
+
+compliant_regions:
+  - United States  # Currently compliant under lighter US regulations (e.g., Executive Order on AI).
+  - Canada  # Compliant with proposed AIDA framework.
+
+non_compliant_regions:  # Regions requiring updates for full compliance (e.g., under EU AI Act or similar).
+  - European Union
+  - United Kingdom
+  - China
+  - India
+  - Singapore
+  - Brazil
+  - Japan
+
+compliance_status:
+  United States: compliant
+  European Union: non-compliant  # High-risk AI requirements not met (e.g., bias mitigation).
+  United Kingdom: partial  # Aligns with pro-innovation framework but needs transparency enhancements.
+  Canada: compliant
+  China: non-compliant  # Missing content labelling and ethical reviews.
+  India: partial  # Ethics guidelines in place but no full law.
+  Singapore: partial  # Voluntary framework; needs accountability boosts.
+  Brazil: non-compliant  # Proposed risk-based bill pending.
+  Japan: partial  # Guidelines on dignity and sustainability.
