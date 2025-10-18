@@ -1,0 +1,5 @@
+
+
+# Browser automation
+browser-use>=0.1.3
+
